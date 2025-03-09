@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+      <TargetFramework>net8.0</TargetFramework>
+
     <Authors>NsfwSpy</Authors>
     <Company>NsfwSpy</Company>
     <PackageTags>nsfw nude nudity porn pornography explicit image detect detection classification classifier machinglearning ml.net</PackageTags>
@@ -17,7 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="11.1.2" />
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.5.0" />
     <PackageReference Include="Microsoft.ML" Version="1.6.0" />
     <PackageReference Include="Microsoft.ML.Vision" Version="1.6.0" />
     <PackageReference Include="Mime" Version="3.4.0" />
